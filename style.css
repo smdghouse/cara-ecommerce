@@ -673,6 +673,9 @@ font-weight: bold;
 /* -------------------------for-mobile-------------------------- */
 
 @media screen and (max-width:480px) {
+    #header {
+        padding: 10px 49px;
+    }
     #banner
     {
         height: 40vh;
@@ -687,7 +690,8 @@ font-weight: bold;
         min-width: 200px;
     }
     .logo {
-        padding: 13px 40px;
+        padding: 14px 40px;
+        width: 173px;
     }
     h2
     {
