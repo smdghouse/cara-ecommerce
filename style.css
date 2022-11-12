@@ -672,6 +672,7 @@ font-weight: bold;
     #banner
     {
         height: 40vh;
+        margin: 20px 0px;
     }
     .single-banner
     {
