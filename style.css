@@ -661,6 +661,10 @@ font-weight: bold;
     {
         margin-bottom: 50px;
     }
+    #header
+    {
+        padding: 20px 49px;
+    }
 
 }
 
@@ -682,9 +686,8 @@ font-weight: bold;
     {
         min-width: 200px;
     }
-    .logo
-    {
-        padding: 20px 40px;
+    .logo {
+        padding: 13px 40px;
     }
     h2
     {
