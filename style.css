@@ -237,7 +237,8 @@ text-transform: capitalize;
     border-radius: 25px;
     margin-bottom: 30px;
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
-    transition: 0.5s ease;
+    transition: 0.5s ease all;
+     padding: 10px 12px;
 }
 .product-item:hover
 {
@@ -246,7 +247,6 @@ text-transform: capitalize;
 }
 .product-item img
 {
-   padding: 10px;
    width: 100%;
    border-radius: 20px;
 
@@ -255,6 +255,24 @@ text-transform: capitalize;
 {
     padding: 10px;
     position: relative;
+}
+.product-desc span
+{
+    font-size: 12px;
+    color: #606063;
+}
+.product-desc h5 {
+    color: #1a1a1a;
+    font-size: 14px;
+}
+.product-desc i{
+    font-size: 12px;
+}
+.product-desc h4{
+    font-size:15px;
+    color: #088178;
+    font-size: 700;
+    padding-top: 7px;
 }
 .product-desc h5,
 .five-star,.product-desc h4
@@ -276,6 +294,7 @@ text-transform: capitalize;
     text-align: center;
 }
 .five-star{
+
     color: rgb(243, 181, 25);
 }
 .product-desc h4
@@ -791,4 +810,101 @@ text-transform: capitalize;
     background-color: #088178;
     font-weight: 600;
     font-size: 16px;
+}
+
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>single product<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+/* -----------------------------single-product-------------------------- */
+#sproduct
+{
+    width: 100%;
+    padding: 70px 0px;
+}
+.mainproduct
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.sproduct-imgs
+{
+    flex-basis: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.bigger-img
+{
+    flex-basis: 100%;
+}
+.bigger-img img{
+    width: 100%;
+}
+
+.sproduct-dec
+{
+    flex: basis 68%; 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    line-height: 30px;
+    width: 65%;
+
+}
+.small-img
+{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+.small-img img{
+    width: 100%;
+}
+.smaller-img-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#total-order
+{
+    height: 35px;
+    width: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+    outline: none;
+}
+#select-size
+{
+    height: 30px;
+    text-transform: uppercase;
+    display: block;
+    padding: 5px;
+}
+#add-cart
+{
+    background: #088178;
+    padding: 10.5px;
+}
+#cart-option
+{
+    margin: 10px 0px;
+}
+@media screen and (max-width:480px) {
+    .sproduct-imgs
+    {
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    .sproduct-dec{
+        flex-basis: 100%;
+    }
 }
